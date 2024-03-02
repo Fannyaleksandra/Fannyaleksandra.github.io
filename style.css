@@ -1,4 +1,8 @@
 body {
-    background-color: rgb(230, 222, 173);
+    background-color: rgb(241, 235, 197);
   }
 
+  * {
+    text-align: center;
+    color: rgb(5, 5, 6);
+  }
