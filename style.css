@@ -11,5 +11,10 @@ body {
     padding: 25px 10px 25px 10px;
    }
   
-  
+   hr {
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    margin: 20px auto;
+}
   
