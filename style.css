@@ -16,7 +16,12 @@ body {
     height: 2px;
     background-color: black;
     margin: 20px auto;
-} body
+}
+
+.content {
+    border: solid 1px;
+    display: flex;
+}
 
 
 /* CSS */
@@ -57,55 +62,3 @@ body {
   box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
 }
 
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /* Style the header */
-  header {
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-  }
-  
-  /* Container for flexboxes */
-  section {
-    display: -webkit-flex;
-    display: flex;
-  }
-  
-  /* Style the navigation menu */
-  nav {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    padding: 20px;
-  }
-  
-  /* Style the list inside the menu */
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  /* Style the content */
-  article {
-    -webkit-flex: 3;
-    -ms-flex: 3;
-    flex: 3;
-    padding: 10px;
-  }
-  
-  
-  
-  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-  @media (max-width: 600px) {
-    section {
-      -webkit-flex-direction: column;
-      flex-direction: column;
-    }
-  }
