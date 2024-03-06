@@ -22,7 +22,12 @@ body {
      display: flex;
 }
 
-
+.button-83 {
+  display: block;
+  width: 100%;
+  border: none;
+  text-align: center;
+}
 /* CSS */
 .button-83 {
   appearance: button;
@@ -65,4 +70,23 @@ body {
   margin: auto;
   width: 100%;
   padding: 10px;
+}
+
+@media screen and (max-width: 600px){
+
+.navi {
+  display: grid;
+  row-gap: 10px;
+}
+
+.center {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
 }
